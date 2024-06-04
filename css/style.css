@@ -1,0 +1,19 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: black;
+}
+
+.logoNav {
+    max-width: 100px;
+}
+
+.carousel-item img {
+    max-height: 600px;
+}
+
+.botaoRegistro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em; 
+}
