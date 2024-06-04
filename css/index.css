@@ -1,3 +1,10 @@
 body {
-    background-color: #0c1630;
+    font-family: "Roboto", sans-serif;
+    background-color: black;
 }
+
+.logoNav {
+    max-width: 15%;
+}
+
+
