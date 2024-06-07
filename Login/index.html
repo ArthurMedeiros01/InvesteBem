@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <img src="/Login/logoinvestebem.png" alt="Logo do Site"> 
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="content">
+    <!-- Conteúdo da sua página aqui -->
+</div>
+    <div class="login-container">
+        <h1>Login</h1>
+        <form action="login_process.php" method="post">
+            <input type="email" name="email" placeholder="E-mail" required>
+            <input type="senha" name="senha" placeholder="Senha" required>
+            <button type="submit">Entrar</button>
+        </form>
+        <p>Esqueceu a senha? <a href="register.html">Clique aqui</a></p> 
+        <p>Não tem uma conta? <a href="register.html">Registre-se</a></p>  
+    </div>
+</body>
+</html>

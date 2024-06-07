@@ -1,0 +1,63 @@
+.container {
+    margin-top: 25px;
+}
+
+.navbar {
+    border-bottom: 1px solid;
+}
+
+.nav-item {
+    padding-left: 30px;
+}
+
+#container-inputs {
+    margin-top: 30px;
+    width: 50%;
+}
+
+#container-inputs > input {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.col {
+    margin: 0 15px;
+    text-align: justify;
+}
+
+.container-contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title-section {
+    font-size: 30px;
+}
+
+.text-title {
+    font-size: 24px;
+}
+
+.accordion-body {
+    text-align: justify;
+}
+
+.button {
+    background-color: rgb(199, 199, 199);
+    border: 1px solid;
+    border-radius: 5px;
+    width: 90px;
+    height: 40px;
+}
+
+#container-footer {
+    margin-top: 25px;
+    padding: 15px;
+    border-top: 1px solid;
+}
+
+#container-footer > a {
+    text-decoration: none;
+    padding-left: 15px;
+    color: black;
+}

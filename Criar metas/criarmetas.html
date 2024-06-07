@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Metas Financeiras</title>
+    <link rel="stylesheet" href="criarmetas.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Logo</a>
+            <a href="#">Nova Meta</a>
+            <a href="#">Lista de Metas</a>
+        </nav>
+    </header>
+    <main>
+        <section id="criar-meta">
+            <h2>Criar Nova Meta</h2>
+            <form id="form-criar-meta">
+                <label for="nome-meta">Nome da Meta</label>
+                <input type="text" id="nome-meta" name="nome-meta" required>
+
+                <label for="descricao-meta">Descrição da Meta</label>
+                <input type="text" id="descricao-meta" name="descricao-meta" required>
+
+                <label for="valor-meta">Valor da Meta</label>
+                <input type="number" id="valor-meta" name="valor-meta" required>
+
+                <label for="prazo-meta">Prazo</label>
+                <input type="date" id="prazo-meta" name="prazo-meta" required>
+
+                <button type="submit">Salvar</button>
+            </form>
+        </section>
+        <section id="lista-metas">
+            <h2>Lista de Metas</h2>
+            <div id="metas-lista"></div>
+        </section>
+        <section id="acompanhamento-metas">
+            <h2>Acompanhamento de Metas</h2>
+            <div id="metas-acompanhamento"></div>
+        </section>
+        <section id="ajustar-metas">
+            <h2>Ajustar Metas</h2>
+            <form id="form-ajustar-metas">
+                <label for="selecionar-meta">Selecione uma meta</label>
+                <select id="selecionar-meta" name="selecionar-meta"></select>
+
+                <label for="novo-valor">Novo Valor</label>
+                <input type="number" id="novo-valor" name="novo-valor" required>
+
+                <label for="novo-prazo">Novo Prazo</label>
+                <input type="date" id="novo-prazo" name="novo-prazo" required>
+
+                <button type="submit">Salvar</button>
+            </form>
+        </section>
+    </main>
+    <script src="criarmetas.js"></script>
+</body>
+</html>
