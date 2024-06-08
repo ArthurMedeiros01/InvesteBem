@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background-color: black !important;
+    font-family: "Roboto", sans-serif;
+}
+
+.logoNav {
+    max-width: 100px;
+}
+
+.titulo h1, p{
+    color: white;
+}
+
+.titulo {
+    padding-top: 2em;
+    padding-left: 2em;
+}
+
+.accordion {
+    max-width: 80%;
+    padding-left: 2em;
+    justify-content: center;
+    display: flexbox;
+    align-items: center;
+}
+
+
+.accordion-flush {
+    max-width: 80%;
+    width: 100%;
+  }
+
+.titulo h2 {
+    color: white;
+    padding-top: 2em;
+}
+
+form {
+    padding-left: 2em;
+    max-width: 80%;
+}
+
+.form-label {
+    color: white;
+}
+
+
+

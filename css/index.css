@@ -1,10 +1,14 @@
 body {
     font-family: "Roboto", sans-serif;
-    background-color: black;
+    background-color: black !important;
 }
 
 .logoNav {
     max-width: 100px;
+}
+
+.nav-item {
+    padding-left: 1em;
 }
 
 .carousel-item img {
