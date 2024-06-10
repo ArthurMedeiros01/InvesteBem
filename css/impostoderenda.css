@@ -2,12 +2,12 @@
     margin-top: 25px;
 }
 
-.navbar {
-    border-bottom: 1px solid;
+.logoNav {
+    max-width: 100px;
 }
 
 .nav-item {
-    padding-left: 30px;
+    padding-left: 1em;
 }
 
 #container-inputs {

@@ -5,12 +5,12 @@ body {
     padding: 0;
 }
 
-navbar {
-    border-bottom: 1px solid;
+.logoNav {
+    max-width: 100px;
 }
 
-nav-item {
-    padding-left: 30px;
+.nav-item {
+    padding-left: 1em;
 }
 
 main {
