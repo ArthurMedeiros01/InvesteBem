@@ -32,3 +32,30 @@ body {
 .botaoRegistro button:hover {
     color:black;
 }
+
+.container {
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+.container img {
+    min-height: 700px;
+    max-width: 90%;
+}
+
+.textoBemVindo {
+    padding-top: 1em;
+    padding-bottom: 2em;
+    max-width: 50em;
+    text-align: center;
+    margin: auto;
+}
+
+.subtitulo {
+    padding-bottom: 1em;
+}
+
+.card-body {
+    background-color: greenyellow;
+}
