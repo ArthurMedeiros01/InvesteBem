@@ -17,10 +17,8 @@ body {
     border-bottom: 1px solid #ddd;
 }
 
-.logo {
-    img{
-        width: 100px;
-    }
+.logo img {    
+    width: 100px;    
 }
 
 nav a {
