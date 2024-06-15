@@ -1,0 +1,62 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: black !important;
+}
+
+.logoNav {
+    max-width: 100px;
+}
+
+.nav-item {
+    padding-left: 1em;
+}
+
+.content {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height: 100vh;  Altura total da viewport */
+  }
+  
+.registro-container {
+    width: 100%;
+    max-width: 600px; 
+    margin: auto; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.titulo {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="senha"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 35px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.botaoRegistro {
+    width: 30%;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: greenyellow;
+    font-size: 1.2em;
+}
+
+.botaoRegistro:hover {
+    color:black;
+}
+  
+@media (max-width: 600px) {
+    .registro-container {
+      width: 90%;
+    }
+}
+  

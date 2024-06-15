@@ -21,3 +21,11 @@ body {
     align-items: center;
     padding-top: 2em; 
 }
+
+.botaoRegistroIndex {
+    background-color: greenyellow !important;
+}
+
+.botaoRegistro button:hover {
+    color:black;
+}

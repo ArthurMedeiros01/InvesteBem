@@ -27,8 +27,9 @@ body {
 
 
 .accordion-flush {
-    max-width: 80%;
-    width: 100%;
+    padding-left: 2em;
+    max-width: 100%;
+    padding-right: 2em;
   }
 
 .titulo h2 {
@@ -38,7 +39,8 @@ body {
 
 form {
     padding-left: 2em;
-    max-width: 80%;
+    max-width: 100%;
+    padding-right: 2em;
 }
 
 .form-label {
