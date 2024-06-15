@@ -1,0 +1,28 @@
+body {
+    font-family: "Roboto", sans-serif;
+    /*background-color: black !important;*/
+}
+
+.logoNav {
+    max-width: 100px;
+}
+
+.nav-item {
+    padding-left: 1em;
+}
+
+main {
+    margin-bottom: 2em;
+}
+
+.imagemArtigo {
+    width: 100%;
+    height: 315px;
+}
+
+#container-footer a{
+    text-decoration: underline;
+    color: black;
+    font-size: smaller;
+    padding-right: 2em;;
+}
